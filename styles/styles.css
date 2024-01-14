@@ -9,15 +9,14 @@
 /* btn style */
 
 .btn-primary {
-    background: #FF900E;
     border-radius: 8px;
-    padding: 20px 25px;
-    color: #fff;
-    text-align: center;
+    color: #FFF;
     font-size: 1.25rem;
-    content: pointer;
-    font-weight: 600;
-    border: none;
+    background: #FF900E;
+    padding: 20px 25px;
+    color: #FFF;
+    cursor: pointer;
+    border: 0;
 }
 
 /* header styles */
@@ -33,6 +32,7 @@ nav {
     align-items: center;
 }
 
+
 .nav-title {
     font-size: 2.8rem;
     font-weight: 700;
@@ -46,33 +46,34 @@ nav>ul {
 nav li {
     list-style: none;
     margin-right: 30px;
-    font-size: 1rem;
     font-weight: 500;
+    font-size: 1rem;
 }
-
 nav li a {
     text-decoration: none;
     color: #424242;
 }
 
+
 /* bannar styles */
-.bannar-content {
+.banner-content {
     width: 800px;
     text-align: center;
     margin: 0 auto;
 }
 
-.bannar-title {
+.banner-title {
     font-size: 4rem;
     font-weight: 700;
     color: #131313;
 }
 
-.bannar-discription {
+.text-light-gray {
     color: #727272;
 }
 
-.bannar img {
+.banner img {
     margin-top: 20px;
     width: 100%;
 }
+

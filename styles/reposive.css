@@ -1,8 +1,34 @@
-@media screen and (max-width:576px) {
-    header{
+@media screen and (max-width: 576px) {
+    header {
+        padding: 50px;
+        
+    }
+    
+    .banner-content{
+        width: 100%;
+        
+    }
+    .banner-title{
+        font-size: 2rem;
+    }
+    nav {
+        flex-direction: column;
+    }
+}
+@media screen and (min-width:577px) and (max-width:960px) {
+    header {
+
         padding: 20px;
     }
-    nav{
+
+    nav {
         flex-direction: column;
+    }
+    .banner-content{
+        width: 100%;
+        
+    }
+    .banner-title{
+        font-size: 2rem;
     }
 }

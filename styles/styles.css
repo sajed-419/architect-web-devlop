@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
 
 /* shared style */
-* {
+* { 
     font-family: 'Work Sans', sans-serif;
 }
 
@@ -39,7 +39,7 @@ nav {
     color: #131313;
 }
 
-nav>ul {
+nav > ul {
     display: flex;
 }
 
@@ -68,7 +68,7 @@ nav li a {
     color: #131313;
 }
 
-.text-light-gray {
+.banner-description {
     color: #727272;
 }
 
@@ -77,3 +77,42 @@ nav li a {
     width: 100%;
 }
 
+@media screen and (max-width: 576px) {
+    header {
+        padding: 50px;
+        
+    }
+    .banner-content{
+        width: 100%;
+        
+    }
+    .banner-title{
+        font-size: 2rem;
+    }
+    nav {
+        flex-direction: column;
+    }
+}
+@media screen and (min-width:577px) and (max-width:960px) {
+    header {
+
+        padding: 20px;
+    }
+    
+    nav {
+        flex-direction: column;
+    }
+    .banner-content{
+        width: 100%;
+        
+    }
+    .banner-title{
+        font-size: 2rem;
+    }
+}
+
+/* main */
+main {
+    max-width: 1440px;
+    margin: 70px auto;
+}
